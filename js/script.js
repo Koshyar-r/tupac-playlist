@@ -33,12 +33,12 @@ Volume.addEventListener("click", () => {
     }, 6000)
 })
 
-function SetVolume() {
-    MainAudio.volume = volume_slider.value / 100
+function MusicAnimation() {
+    Container.querySelector(".top-bar img").classList.add("active")
 }
 
-function MusicAnimation() {
-    MusicIcon.classList.add("active")
+function SetVolume() {
+    MainAudio.volume = volume_slider.value / 100
 }
 
 function loadMusic(indexNumb){
@@ -61,7 +61,7 @@ function pauseMusic(){
   Container.classList.remove("paused")
   PlayPauseBtn.querySelector("i").innerText = "play_arrow"
   MainAudio.pause()
-  MusicIcon.classList.remove("active")
+  Container.querySelector(".top-bar img").classList.remove("active")
 }
 
 //prev music function

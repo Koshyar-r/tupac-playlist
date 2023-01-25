@@ -1,50 +1,44 @@
 let AllMusic = [
   {
-    name: "Wake Me Up",
-    artist: "Avici",
+    name: "Ambitionz Az A Ridah",
+    artist: "2Pac",
     img: "music-1",
     src: "music-1"
   },
   {
-    name: "Calm Down",
-    artist: "Rema, Selena Gomez",
+    name: "To Live and Die In L.A",
+    artist: "2Pac",
     img: "music-2",
     src: "music-2"
   },
   {
-    name: "NDA",
-    artist: "Billie Eilish",
+    name: "Changes",
+    artist: "2Pac",
     img: "music-3",
     src: "music-3"
   },
   {
-    name: "Unholy",
-    artist: "Sam Smith Ft. Kim Petras",
+    name: "California Love",
+    artist: "2Pac",
     img: "music-4",
     src: "music-4"
   },
   {
-    name: "In Rahesh Nist",
-    artist: "Shayan Eshraghi",
+    name: "Don't You Trust Me",
+    artist: "2Pac",
     img: "music-5",
     src: "music-5"
   },
   {
-    name: "oon hata ba txtash ba harfash",
-    artist: "Amir Tataloo",
+    name: "Hit Em Up",
+    artist: "2Pac",
     img: "music-6",
     src: "music-6"
   },
   {
-    name: "Sange Ghabre Arezoo",
-    artist: "Artoosh",
+    name: "Dear Mama",
+    artist: "2Pac",
     img: "music-7",
     src: "music-7"
   },
-  {
-    name: "Magic",
-    artist: "Coldplay",
-    img: "music-8",
-    src: "music-8"
-  }
 ]
